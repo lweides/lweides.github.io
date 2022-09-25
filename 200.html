@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="/favicon.png" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Optimism Test</title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono" />
+
+	<!-- SMUI Styles -->
+	<link rel="stylesheet" href="/smui.css" />
+	<link rel="stylesheet" href="/global.css" />
+	<meta http-equiv="content-security-policy" content="">
+		<link rel="modulepreload" href="/_app/immutable/start-c1e278ed.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index-07d8dde2.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/singletons-fe3d82e0.js">
+</head>
+
+<body>
+	<div>
+		<script type="module" data-sveltekit-hydrate="45h">
+			import { start } from "/_app/immutable/start-c1e278ed.js";
+
+			start({
+				env: {},
+				hydrate: null,
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
+				trailing_slash: "never"
+			});
+		</script></div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: "Roboto Mono";
+  background-image: url("/parabolic-ellipse.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+main {
+  padding: 1rem;
+}
